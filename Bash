@@ -1,0 +1,27 @@
+git add .
+git commit -m "Atualização do portfólio profissional"
+git push
+git add .
+git commit -m "Correção da estrutura do portfólio"
+git push
+git add .
+git commit -m "Forçando redeploy do GitHub Pages"
+git push
+git add .
+git add .
+git commit -m "Melhoria profissional do portfólio"
+git push
+git commit -m "Correção da estrutura HTML da seção Projetos"
+git pushgit add .
+git commit -m "Estilo em cards para projetos do portfólio"
+git push
+git add .
+git commit -m "Adicionando ícones profissionais no contato"
+git push
+git add .
+git commit -m "Projeto demo: Website de Barbearia"
+git push
+git status
+git add .
+git commit -m "Corrige estrutura do projeto para GitHub Pages"
+git push

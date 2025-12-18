@@ -60,3 +60,131 @@ footer {
         padding: 20px;
     }
 }    
+.whatsapp-fixo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25d366;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+.whatsapp-fixo:hover {
+  background: #1ebe5d;
+}
+/* RESET BÁSICO */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* HEADER */
+header {
+  background: #111;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  margin-top: 10px;
+  color: #ccc;
+}
+
+/* SEÇÕES */
+section {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+section h2 {
+  margin-bottom: 20px;
+  color: #111;
+  font-size: 1.8rem;
+}
+
+/* CARDS DE PROJETOS */
+#projetos ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+#projetos li {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#projetos li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+#projetos strong {
+  font-size: 1.1rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+#projetos a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #0066ff;
+  font-weight: bold;
+}
+
+#projetos a:hover {
+  text-decoration: underline;
+}
+
+/* FOOTER */
+footer {
+  background: #111;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+/* CONTATO COM ÍCONES */
+#contato p {
+  margin: 12px 0;
+  font-size: 1rem;
+}
+
+#contato i {
+  color: #0066ff;
+  margin-right: 8px;
+  font-size: 1.1rem;
+}
+
+#contato a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#contato a:hover {
+  text-decoration: underline;
+}
